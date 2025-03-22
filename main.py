@@ -13,7 +13,6 @@ class Main():
                     break
                 
                 option = menu.options.get(choice)
-                print(option)
                 if option:
                     result = option.execute()
                     print(result)
