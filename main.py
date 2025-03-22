@@ -3,6 +3,7 @@ from menu import Menu
 class Main():
 
     def run(menu): ## Método de inínio da aplicação
+            Menu.displayTitle()
             while True:
                 Menu.displayMenu(menu)
                 choice = input("Escolha uma opção: ")

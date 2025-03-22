@@ -11,6 +11,9 @@ class Menu:
             "0": None
         }
 
+    def displayTitle():
+        print("Aqui vai o Nome do Projeto")
+    
     def displayMenu(menu): ## Método para visualização do menu
         print("\nMenu de Opções:")
         print("1 - Executar funcionalidade 1")
