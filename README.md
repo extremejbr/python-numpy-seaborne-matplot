@@ -38,6 +38,12 @@ Com o ambiente virtual ativado, instale as dependências listadas no arquivo `re
 pip install -r requirements.txt
 ```
 
+### Criando disretório onde será salvo os Gráficos
+No diretório raiz do projeto execute o seguinte comando:
+```bash
+mkdir graphics 
+```
+
 ## Executando o Projeto
 
 Após configurar o ambiente e instalar as dependências, você pode executar os scripts do projeto com o seguinte comando:
