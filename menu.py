@@ -3,6 +3,7 @@ from anxietyGenderAnalysis import AnxietyGenderAnalysis
 from depressionGenderAnalysis import DepressionGenderAnalysis
 from findByColumn import FindByColumn
 from findValue import FindValue
+from depressionAnxietyPercentualAnalysis import DepressionAnxietyPercentualAnalysis
 
 class Menu:
     def __init__(menu): ## Contrutor da classe Menu
@@ -12,6 +13,7 @@ class Menu:
             "3": DepressionGenderAnalysis(),
             "4": FindValue(),
             "5": FindByColumn(),
+            "7": DepressionAnxietyPercentualAnalysis(),
             "0": None
         }
 
@@ -25,5 +27,6 @@ class Menu:
         print("3 - Mostrar Depressão por Gênero")
         print("4 - Buscar um valor no DataSet")
         print("5 - Buscar um valor em uma coluna no DataSet")
+        print("7 - Percentual de estudantes com Transtorno Mental")
         print("0 - Sair")
 
