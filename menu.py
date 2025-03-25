@@ -1,11 +1,7 @@
 from showDataset import ShowDataset
 from anxietyGenderAnalysis import AnxietyGenderAnalysis
-from depressionGenderAnalysis import DepressionGenderAnalysi
+from depressionGenderAnalysis import DepressionGenderAnalysis
 from avarageAgeStudents import AvarageAgeStudents
-
-
-class Menu:
-    def __init__(menu):  # Contrutor da classe Menu
 from findByColumn import FindByColumn
 from findValue import FindValue
 from depressionAnxietyPercentualAnalysis import DepressionAnxietyPercentualAnalysis
@@ -13,7 +9,6 @@ from studentesInterviewsByDay import StudentesInterviewsByDay
 
 class Menu:
     def __init__(menu): ## Construtor da classe Menu
-
         menu.options = {
             "1": ShowDataset(),
             "2": AnxietyGenderAnalysis(),

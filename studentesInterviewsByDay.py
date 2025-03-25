@@ -29,7 +29,7 @@ class StudentesInterviewsByDay:
         y=interviews["Total"]
 
         # Criar o gráfico de linha
-        plt.plot(x, y, marker='o', linestyle='-', color='b')
+        plt.plot(x, y, marker='o', linestyle='dotted', color='b')
 
         # Personalizar o gráfico
         plt.title('Período de coleta de dados')
