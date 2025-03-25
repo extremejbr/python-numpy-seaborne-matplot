@@ -6,6 +6,7 @@ from findByColumn import FindByColumn
 from findValue import FindValue
 from depressionAnxietyPercentualAnalysis import DepressionAnxietyPercentualAnalysis
 from studentesInterviewsByDay import StudentesInterviewsByDay
+from percentualByGender import PercentualByGender
 
 class Menu:
     def __init__(menu): ## Construtor da classe Menu
@@ -18,6 +19,7 @@ class Menu:
             "6": AvarageAgeStudents(),
             "7": DepressionAnxietyPercentualAnalysis(),
             "8": StudentesInterviewsByDay(),
+            "14": PercentualByGender(),
             "0": None
         }
 
@@ -34,4 +36,5 @@ class Menu:
         print("6 - Média de idade dos estudantes")
         print("7 - Percentual de estudantes com Transtorno Mental")
         print("8 - Total de entrevistas por dia")
+        print("14 - Percentual de estudantes por gênero")
         print("0 - Sair")
