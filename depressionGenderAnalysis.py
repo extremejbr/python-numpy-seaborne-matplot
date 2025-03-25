@@ -16,7 +16,7 @@ class DepressionGenderAnalysis:
         # Renomear colunas para facilitar o uso
         df.columns = ['Gender', 'Depression']
 
-        # Contar respostas por gênero e ansiedade
+        # Contar respostas por gênero e depressão
         anxiety_counts = df.groupby(['Gender', 'Depression']).size().unstack()
 
         # Criar o gráfico de barras

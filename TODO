@@ -1,9 +1,12 @@
-- Ansiedade categorizado por Idade
-- Depressão categorizado por Idade
-- Ansiedade categorizado por Ano de estudo
-- Depressão categorizado por Ano de estudo
-- Busca por um valor em uma coluna do dataset de forma dinâmica
-- Buscar por um valor em qualquer coluna do dataset
-- Calcular a média de idade dos estudantes
-- Gráfico de pizza para estudantes com Ansiedade e Depressão 
+- Gráfico de barras para Ansiedade categorizado por Idade
+- Gráfico de barras Depressão categorizado por Idade
+- Gráfico de barras Ansiedade categorizado por Ano de estudo
+- Gráfico de barras Depressão categorizado por Ano de estudo
+- (Jones) Busca por um valor em uma coluna do dataset de forma dinâmica
+- (Jones) Buscar por um valor em qualquer coluna do dataset
+- (Gabriel) - Calcular a média de idade dos estudantes
+- (Jones) Gráfico de pizza para estudantes com Ansiedade e Depressão 
 - Gráfico de linha mostrando a quantidade de estrvistas por dia 
+- Total de estudantes que estão em tratamento por Gênero 
+- Gráfico de pizza para o perccentual de Homeme e Mulheres entrevistados
+- Gráfico de barras para categorizar por Gênero
