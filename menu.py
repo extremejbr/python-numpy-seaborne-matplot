@@ -8,6 +8,8 @@ from depressionAnxietyPercentualAnalysis import DepressionAnxietyPercentualAnaly
 from studentesInterviewsByDay import StudentesInterviewsByDay
 from pieChartAnxietyByAge import PieChartAnxietyByAge
 from percentualByGender import PercentualByGender
+from anxietyByStudyYear import AnxietyByStudyYear
+from depressionByStudyYear import DepressionByStudyYear
 
 
 class Menu:
@@ -22,6 +24,8 @@ class Menu:
             "7": DepressionAnxietyPercentualAnalysis(),
             "8": StudentesInterviewsByDay(),
             "9": PieChartAnxietyByAge(),
+            "11": AnxietyByStudyYear(),
+            "12": DepressionByStudyYear(),
             "14": PercentualByGender(),
             "0": None
         }
@@ -40,5 +44,7 @@ class Menu:
         print("7 - Percentual de estudantes com Transtorno Mental")
         print("8 - Total de entrevistas por dia")
         print("9 - Percentual de estudantes com Ansiedade por Idade")
+        print("11 - Ansiedade por Ano de Estudo")
+        print("12 - Depressão por Ano de Estudo")
         print("14 - Percentual de estudantes por gênero")
         print("0 - Sair")
