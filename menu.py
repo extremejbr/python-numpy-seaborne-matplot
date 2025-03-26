@@ -7,6 +7,7 @@ from findValue import FindValue
 from depressionAnxietyPercentualAnalysis import DepressionAnxietyPercentualAnalysis
 from studentesInterviewsByDay import StudentesInterviewsByDay
 from pieChartAnxietyByAge import PieChartAnxietyByAge
+from percentualByGender import PercentualByGender
 
 
 class Menu:
@@ -21,6 +22,7 @@ class Menu:
             "7": DepressionAnxietyPercentualAnalysis(),
             "8": StudentesInterviewsByDay(),
             "9": PieChartAnxietyByAge(),
+            "14": PercentualByGender(),
             "0": None
         }
 
@@ -38,4 +40,5 @@ class Menu:
         print("7 - Percentual de estudantes com Transtorno Mental")
         print("8 - Total de entrevistas por dia")
         print("9 - Percentual de estudantes com Ansiedade por Idade")
+        print("14 - Percentual de estudantes por gênero")
         print("0 - Sair")
