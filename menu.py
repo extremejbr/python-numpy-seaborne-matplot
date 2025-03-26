@@ -6,10 +6,12 @@ from findByColumn import FindByColumn
 from findValue import FindValue
 from depressionAnxietyPercentualAnalysis import DepressionAnxietyPercentualAnalysis
 from studentesInterviewsByDay import StudentesInterviewsByDay
+from pieChartAnxietyByAge import PieChartAnxietyByAge
 from percentualByGender import PercentualByGender
 
+
 class Menu:
-    def __init__(menu): ## Construtor da classe Menu
+    def __init__(menu):  # Construtor da classe Menu
         menu.options = {
             "1": ShowDataset(),
             "2": AnxietyGenderAnalysis(),
@@ -19,14 +21,15 @@ class Menu:
             "6": AvarageAgeStudents(),
             "7": DepressionAnxietyPercentualAnalysis(),
             "8": StudentesInterviewsByDay(),
+            "9": PieChartAnxietyByAge(),
             "14": PercentualByGender(),
             "0": None
         }
 
     def displayTitle():
         print("Análises em Dataset de Transtornos de Humor")
-        
-    def displayMenu(menu): ## Método para visualização do menu
+
+    def displayMenu(menu):  # Método para visualização do menu
         print("\nMenu de Opções:")
         print("1 - Mostar Dataset")
         print("2 - Mostrar Ansiedade por Gênero")
@@ -36,5 +39,6 @@ class Menu:
         print("6 - Média de idade dos estudantes")
         print("7 - Percentual de estudantes com Transtorno Mental")
         print("8 - Total de entrevistas por dia")
+        print("9 - Percentual de estudantes com Ansiedade por Idade")
         print("14 - Percentual de estudantes por gênero")
         print("0 - Sair")
