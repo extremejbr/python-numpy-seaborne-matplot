@@ -30,9 +30,9 @@ class Menu:
             "10": DepressionByAge(),
             "11": AnxietyByStudyYear(),
             "12": DepressionByStudyYear(),
-            "14": PercentualByGender(),
-            "16": DepressionByCourse(),
-            "17": AnxietyByCourse(),
+            "13": PercentualByGender(),
+            "14": DepressionByCourse(),
+            "15": AnxietyByCourse(),
             "0": None
         }
 
@@ -53,7 +53,7 @@ class Menu:
         print("10 - Depressão por Idade")
         print("11 - Ansiedade por Ano de Estudo")
         print("12 - Depressão por Ano de Estudo")
-        print("14 - Percentual de estudantes por gênero")
-        print("16 - Depressão por Curso")
-        print("17 - Ansiedade por Curso")
+        print("13 - Percentual de estudantes por gênero")
+        print("14 - Depressão por Curso")
+        print("15 - Ansiedade por Curso")
         print("0 - Sair")
