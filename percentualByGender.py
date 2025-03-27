@@ -5,7 +5,7 @@ from utils import Utils
 
 class PercentualByGender:
     def execute(self):
-        print("Executando funcionalidade 14...")
+        print("Executando funcionalidade 13...")
 
         # Carregar o dataset
         df = Utils.loadDataset('dataset/StudentMentalHealth.csv')

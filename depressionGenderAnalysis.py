@@ -5,7 +5,7 @@ from utils import Utils
 
 class DepressionGenderAnalysis:
     def execute(self):
-        print("Executando funcionalidade 2...")
+        print("Executando funcionalidade 3...")
 
         # Carregar o dataset
         df = Utils.loadDataset('dataset/StudentMentalHealth.csv')
