@@ -7,6 +7,7 @@ from findValue import FindValue
 from depressionAnxietyPercentualAnalysis import DepressionAnxietyPercentualAnalysis
 from studentesInterviewsByDay import StudentesInterviewsByDay
 from anxietyByAge import AnxietyByAge
+from depressionByAge import DepressionByAge
 from percentualByGender import PercentualByGender
 from anxietyByStudyYear import AnxietyByStudyYear
 from depressionByStudyYear import DepressionByStudyYear
@@ -25,6 +26,7 @@ class Menu:
             "7": DepressionAnxietyPercentualAnalysis(),
             "8": StudentesInterviewsByDay(),
             "9": AnxietyByAge(),
+            "10": DepressionByAge(),
             "11": AnxietyByStudyYear(),
             "12": DepressionByStudyYear(),
             "14": PercentualByGender(),
@@ -46,6 +48,7 @@ class Menu:
         print("7 - Percentual de estudantes com Transtorno Mental")
         print("8 - Total de entrevistas por dia")
         print("9 - Ansiedade por Idade")
+        print("10 - Depressão por Idade")
         print("11 - Ansiedade por Ano de Estudo")
         print("12 - Depressão por Ano de Estudo")
         print("14 - Percentual de estudantes por gênero")
