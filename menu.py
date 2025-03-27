@@ -11,6 +11,7 @@ from percentualByGender import PercentualByGender
 from anxietyByStudyYear import AnxietyByStudyYear
 from depressionByStudyYear import DepressionByStudyYear
 from depressionByCourse import DepressionByCourse
+from anxietyByCourse import AnxietyByCourse
 
 
 class Menu:
@@ -29,6 +30,7 @@ class Menu:
             "12": DepressionByStudyYear(),
             "14": PercentualByGender(),
             "16": DepressionByCourse(),
+            "17": AnxietyByCourse(),
             "0": None
         }
 
@@ -50,4 +52,5 @@ class Menu:
         print("12 - Depressão por Ano de Estudo")
         print("14 - Percentual de estudantes por gênero")
         print("16 - Depressão por Curso")
+        print("17 - Ansiedade por Curso")
         print("0 - Sair")
