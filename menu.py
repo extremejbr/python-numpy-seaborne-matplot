@@ -13,6 +13,7 @@ from anxietyByStudyYear import AnxietyByStudyYear
 from depressionByStudyYear import DepressionByStudyYear
 from depressionByCourse import DepressionByCourse
 from anxietyByCourse import AnxietyByCourse
+from cgp import CGP
 
 
 class Menu:
@@ -33,6 +34,7 @@ class Menu:
             "13": PercentualByGender(),
             "14": DepressionByCourse(),
             "15": AnxietyByCourse(),
+            "16" : CGP(),
             "0": None
         }
 
@@ -56,4 +58,5 @@ class Menu:
         print("13 - Percentual de estudantes por gênero")
         print("14 - Depressão por Curso")
         print("15 - Ansiedade por Curso")
+        print("16 - Média de CGPA")
         print("0 - Sair")
