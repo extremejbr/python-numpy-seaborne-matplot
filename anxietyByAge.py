@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from utils import Utils
 
 
-class PieChartAnxietyByAge:
+class AnxietyByAge:
     def execute(self):
         print("Executando funcionalidade 9...")
 

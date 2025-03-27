@@ -6,7 +6,7 @@ from findByColumn import FindByColumn
 from findValue import FindValue
 from depressionAnxietyPercentualAnalysis import DepressionAnxietyPercentualAnalysis
 from studentesInterviewsByDay import StudentesInterviewsByDay
-from pieChartAnxietyByAge import PieChartAnxietyByAge
+from anxietyByAge import AnxietyByAge
 from percentualByGender import PercentualByGender
 from anxietyByStudyYear import AnxietyByStudyYear
 from depressionByStudyYear import DepressionByStudyYear
@@ -23,7 +23,7 @@ class Menu:
             "6": AvarageAgeStudents(),
             "7": DepressionAnxietyPercentualAnalysis(),
             "8": StudentesInterviewsByDay(),
-            "9": PieChartAnxietyByAge(),
+            "9": AnxietyByAge(),
             "11": AnxietyByStudyYear(),
             "12": DepressionByStudyYear(),
             "14": PercentualByGender(),
@@ -35,15 +35,15 @@ class Menu:
 
     def displayMenu(menu):  # Método para visualização do menu
         print("\nMenu de Opções:")
-        print("1 - Mostar Dataset")
-        print("2 - Mostrar Ansiedade por Gênero")
-        print("3 - Mostrar Depressão por Gênero")
+        print("1 - Apresentar o Dataset")
+        print("2 - Ansiedade por Gênero")
+        print("3 - Depressão por Gênero")
         print("4 - Buscar um valor no DataSet")
         print("5 - Buscar um valor em uma coluna no DataSet")
         print("6 - Média de idade dos estudantes")
         print("7 - Percentual de estudantes com Transtorno Mental")
         print("8 - Total de entrevistas por dia")
-        print("9 - Percentual de estudantes com Ansiedade por Idade")
+        print("9 - Ansiedade por Idade")
         print("11 - Ansiedade por Ano de Estudo")
         print("12 - Depressão por Ano de Estudo")
         print("14 - Percentual de estudantes por gênero")
