@@ -1,7 +1,8 @@
 
 # Ciência de Dados
 
-Este é um projeto de Ciência de Dados desenvolvido em Python, utilizando bibliotecas como `pandas` e `matplotlib` e `seaborn` para análise e visualização de dados.
+Este é um projeto de Ciência de Dados desenvolvido em Python, utilizando bibliotecas como `numpy`, `pandas`, `matplotlib` e `seaborn` para análise e visualização de dados.
+O propjeto foi desenvolvido em colaboração de @Pedrossl e @Gabriel-Hub-86.
 
 ## Configuração do Ambiente
 
